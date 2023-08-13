@@ -1,0 +1,86 @@
+﻿@model DesafioReval.Models.ClienteModel
+
+@{
+    ViewData["Title"] = "Cadastro";
+}
+<div class="mt-4">
+    <br />
+    <br />
+    <h1>Cadastro de Clientes</h1>
+    <br />
+    <div class="form-group row" role="group">
+        <a class="btn btn-outline-secondary" asp-action="Index">Voltar</a>
+    </div>
+    <hr />
+    <div class="row">
+        <div class="col-md">
+            <form asp-action="Create">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="card">
+                    <div class="card-header">Pessoa Jurídica</div>
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label asp-for="razaosocial" class="control-label"></label>
+                            <input asp-for="razaosocial" class="form-control" />
+                            <span asp-validation-for="razaosocial" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="nomefantasia" class="control-label"></label>
+                            <input asp-for="nomefantasia" class="form-control" />
+                            <span asp-validation-for="nomefantasia" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="cnpj" class="control-label"></label>
+                            <input asp-for="cnpj" class="form-control" />
+                            <span asp-validation-for="cnpj" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="inscrisaoe" class="control-label"></label>
+                            <input asp-for="inscrisaoe" class="form-control" />
+                            <span asp-validation-for="inscrisaoe" class="text-danger"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label asp-for="nomeresp" class="control-label"></label>
+                    <input asp-for="nomeresp" class="form-control" />
+                    <span asp-validation-for="nomeresp" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="email" class="control-label"></label>
+                    <input asp-for="email" class="form-control" />
+                    <span asp-validation-for="email" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="telefone" class="control-label"></label>
+                    <input asp-for="telefone" class="form-control" />
+                    <span asp-validation-for="telefone" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="cep" class="control-label"></label>
+                    <input asp-for="cep" class="form-control" />
+                    <span asp-validation-for="cep" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="cidade" class="control-label"></label>
+                    <input asp-for="cidade" class="form-control" />
+                    <span asp-validation-for="cidade" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="estado" class="control-label"></label>
+                    <input asp-for="estado" class="form-control" />
+                    <span asp-validation-for="estado" class="text-danger"></span>
+                </div>
+                <br />
+                <div class="form-group row" role="group">
+                    <input type="submit" value="Cadastrar" class="btn btn-outline-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

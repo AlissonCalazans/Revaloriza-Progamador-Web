@@ -1,0 +1,83 @@
+﻿@model IEnumerable<DesafioReval.Models.ClienteModel>
+
+@{
+    ViewData["Title"] = "Lista de Clientes";
+}
+<div class="mt-4">
+    <br />
+    <br />
+    <h1>Lista de Clientes</h1>
+    <p>
+        <a class="btn btn-primary" role="button" asp-action="Create">Novo Cliente</a>
+    </p>
+    <br />
+    <table id="myTable" class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.razaosocial)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.nomefantasia)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.cnpj)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.inscrisaoe)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.nomeresp)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.telefone)
+                </th>
+
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.razaosocial)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.nomefantasia)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.cnpj)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.inscrisaoe)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.nomeresp)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.telefone)
+                    </td>
+                    <td class="btn btn-group" role="group">
+                        <a class="btn btn-outline-primary m-1" asp-action="Edit" asp-route-id="@item.Id">Alterar</a>
+                        <a class="btn btn-outline-success m-1" asp-action="Details" asp-route-id="@item.Id">Detalhes</a>
+                        <a class="btn btn-outline-danger m-1" asp-action="Delete" asp-route-id="@item.Id">Apagar</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+@section scripts{
+
+    <script>
+        $(document).ready(function () {
+            $('#myTable').DataTable({
+                "language": {
+                    "url": "//cdn.datatables.net/plug-ins/9dcbecd42ad/i18n/Portuguese-Brasil.json"
+                }
+            });
+        });
+    </script>
+
+}
