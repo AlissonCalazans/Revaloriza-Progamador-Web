@@ -1,6 +1,6 @@
 <h1>Revaloriza-Progamador-Web</h1>
 
-<h4> Projeto desenvolvido com APS.NET Core. - Tela de cadastro de Clientes com com funções inclusão, alteração, exclusão e um campo de Pesquisa.</h4>:-----------------------------------------------------------------------------------------------------------------------------------:
+<h4> Projeto desenvolvido com APS.NET Core. - Tela de cadastro de Clientes com funções inclusão, alteração, exclusão e um campo de Pesquisa.</h4>:-----------------------------------------------------------------------------------------------------------------------------------:
 <h3>- Estrutura do Projeto</h3>
 :shipit: ./Controllers/ClienteController.cs : É Utilizado para incluir a lista, além de gerar as acões do botoes dos registros dos clientes.
 
