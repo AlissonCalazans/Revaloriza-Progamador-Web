@@ -14,7 +14,8 @@
 :shipit:./models/ClienteModel.cs: A classe utiliza atributos de anotação (Annotations) para configurar metadados que descrevem como as propriedades do modelo devem ser tratadas, como por exemplo, a nomenclatura das colunas no banco de dados e a exibição de nomes nas visualizações.
 
 :shipit:./Viwes/ É toda a parte de estilização do site, isso inclui as rotas dos links e botões.
-
+<br>
+<br>
 
 
 
@@ -27,3 +28,12 @@
 - Microsoft.EntityFrameworkCore.SqlServer (Versão 7.0.10)
 
 - Microsoft.EntityFrameworkCore.Tools (Versão 7.0.10)
+
+- Bootstrap 5 
+
+
+<h4> - Plug-ins </h4>
+
+ - DataTable
+   
+
