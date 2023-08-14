@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KqeBFryahe6hHyPI6A2M7QvN0OzpAGdqTwWne+U6YxdRkqp+CVObqyabVh9wRb4kGl4BwWA2S0u7p+eV3bXqog==",
+  "dgSpecHash": "Au9qCI4PT1Vz8iWgRkmQoPVN4t4SltT3cwfmZdHdcgez8/XfuMUhkO7Rggzbb1liLtQdq7+iQY4ji1pVUrkELA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alisson Calazans\\OneDrive\\Área de Trabalho\\Nova pasta\\DesafioReval\\DesafioReval.csproj",
+  "projectFilePath": "C:\\Users\\Alisson Calazans\\OneDrive\\Área de Trabalho\\Revaloriza-Progamador-Web\\DesafioReval\\DesafioReval.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alisson Calazans\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Alisson Calazans\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

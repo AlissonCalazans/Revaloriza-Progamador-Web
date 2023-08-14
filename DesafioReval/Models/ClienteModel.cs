@@ -21,6 +21,7 @@ namespace DesafioReval.Models
         [Required]
         [Column("CNPJ")]
         [Display(Name = "CNPJ")]
+        [Cnpj]
         public string cnpj { get; set; }
 
         [Column("Inscrição Estadual")]

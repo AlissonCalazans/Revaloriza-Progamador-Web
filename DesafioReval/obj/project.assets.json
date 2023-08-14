@@ -11503,11 +11503,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alisson Calazans\\OneDrive\\Área de Trabalho\\Nova pasta\\DesafioReval\\DesafioReval.csproj",
+      "projectUniqueName": "C:\\Users\\Alisson Calazans\\OneDrive\\Área de Trabalho\\Revaloriza-Progamador-Web\\DesafioReval\\DesafioReval.csproj",
       "projectName": "DesafioReval",
-      "projectPath": "C:\\Users\\Alisson Calazans\\OneDrive\\Área de Trabalho\\Nova pasta\\DesafioReval\\DesafioReval.csproj",
+      "projectPath": "C:\\Users\\Alisson Calazans\\OneDrive\\Área de Trabalho\\Revaloriza-Progamador-Web\\DesafioReval\\DesafioReval.csproj",
       "packagesPath": "C:\\Users\\Alisson Calazans\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alisson Calazans\\OneDrive\\Área de Trabalho\\Nova pasta\\DesafioReval\\obj\\",
+      "outputPath": "C:\\Users\\Alisson Calazans\\OneDrive\\Área de Trabalho\\Revaloriza-Progamador-Web\\DesafioReval\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
