@@ -1,18 +1,25 @@
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
     margin-bottom: 60px;
+}
+
+.EditText {
+    color: cornflowerblue;
+    font-weight:900;
+    font-size: 100px;
+    text-shadow: -1px -1px 0px #000f, -1px 1px 0px #000f, 1px -1px 0px #000f, 1px 0px 0px #000f;
 }
